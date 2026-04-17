@@ -5,26 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
     <title>Projeto Newsletter</title>
   </head>
   <body>
     <main>
       <div>
-        <div id="formulario">
+        <form id="formulario">
           <h1>Fomulario da Nossa Newsletter</h1>
           <div>
-            <label for="">Email</label>
+            <label for="email">Email</label>
             <input
               type="email"
               name="email"
-              id="mail"
+              id="email"
               placeholder="teste@seuemail.com"
             />
 
-            <label for="">Senha</label>
+            <label for="senha">Senha</label>
             <input type="password" id="senha" placeholder="******" />
 
-            <label for="">Estado</label>
+            <label for="estado">Estado</label>
             <select
               name="estado"
               id="estado"
@@ -62,7 +63,7 @@
             </select>
             <button type="submit" id="cadastrar">Cadastrar</button>
           </div>
-        </div>
+        </form>
       </div>
     </main>
   </body>
